@@ -19,6 +19,7 @@ dockitems_remove:
   - "App Store"
   - Music
   - Numbers
+  - Keynote
   - Pages
 
 dockitems_persist: []
