@@ -14,7 +14,7 @@ xcode-select --install
 
 ```shell
 # Update PATH
-export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$HOME/.local/bin:$PATH"
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$HOME/.local/bin:$PATH
 
 # Update pip
 sudo pip3 install --upgrade pip
