@@ -13,8 +13,8 @@ xcode-select --install
 ### Install Ansible using pip
 
 ```shell
-# Add pip to PATH (⚠️ Ensure that the version is correct)
-export PATH="$HOME/Library/Python/3.9/bin:/opt/homebrew/bin:$PATH"
+# Update PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$HOME/.local/bin:$PATH"
 
 # Update pip
 sudo pip3 install --upgrade pip
