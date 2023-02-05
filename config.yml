@@ -28,8 +28,9 @@ dotfiles_repo_local_destination: ~/.dotfiles
 dotfiles_files:
   - .zshrc
   - .gitconfig
-  - .gitignore
+  - .gitignore_global
   - .prettierrc
+  - maciek.bttpreset
 
 homebrew_installed_packages:
   - git
