@@ -1,0 +1,20 @@
+- name: Install ZSH
+  community.general.homebrew:
+    name: zsh
+
+- name: Change shell to zsh
+  shell: chsh -s $(which zsh)
+
+- name: Check if config file exists
+  stat:
+    path: /home/maciek/.oh-my-zsh
+  register: oh_my_stats
+
+- name: Install Oh My Zsh
+  shell: curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh > ~/.oh-my-installer && chmod +x ~/.oh-my-installer && ~/.oh-my-installer
+  when: oh_my_stats.stat.exists == False
+  become_user: maciek
+
+- name: Install zsh-autosuggestions
+  community.general.homebrew:
+    name: zsh-autosuggestions

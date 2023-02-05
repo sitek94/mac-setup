@@ -24,3 +24,5 @@
   tasks:
     - import_tasks: tasks/npm-packages.yml
       tags: ["npm-packages"]
+    - import_tasks: tasks/zsh.yml
+      tags: ["zsh"]
