@@ -1,0 +1,63 @@
+---
+downloads: ~/.ansible-downloads/
+
+# Set to 'true' to configure the Dock via dockutil.
+configure_dock: false
+dockitems_remove:
+  - Launchpad
+  - Messages
+  - Mail
+  - Maps
+  - Photos
+  - FaceTime
+  - Calendar
+  - Contacts
+  - Freeform
+  - TV
+  - Podcasts
+  - "App Store"
+  - Music
+  - Numbers
+  - Pages
+
+dockitems_persist: []
+
+homebrew_installed_packages:
+  - git
+  - github/gh/gh
+  - node
+  - nvm
+  - ssh-copy-id
+  - openssl
+  - wget
+  - {
+      name: zsh-autosuggestions,
+      path: "~/.oh-my-zsh/plugins/zsh-autosuggestions",
+    }
+  - zsh-history-substring-search
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - 1password
+  - alfred
+  - bettertouchtool
+  - brave-browser
+  - docker
+  - firefox
+  - google-chrome
+  - iterm2
+  - karabiner-elements
+  - obsidian
+  - slack
+  - spotify
+  - todoist
+  - visual-studio-code
+  - webstorm
+
+npm_packages:
+  - name: prettier
+    state: latest
