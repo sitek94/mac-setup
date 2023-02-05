@@ -22,6 +22,15 @@ dockitems_remove:
 
 dockitems_persist: []
 
+dotfiles_repo: https://github.com/sitek94/dotfiles.git
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: ~/.dotfiles
+dotfiles_files:
+  - .zshrc
+  - .gitconfig
+  - .gitignore
+  - .prettierrc
+
 homebrew_installed_packages:
   - git
   - github/gh/gh
@@ -59,5 +68,5 @@ homebrew_cask_apps:
   - webstorm
 
 npm_packages:
-  - name: prettier
-    state: latest
+  - prettier
+  - eslint
