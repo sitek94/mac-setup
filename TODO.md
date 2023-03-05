@@ -4,6 +4,9 @@ Before next installation update the script with the following items:
 
 - homebrew
   - [ ] qview
+  - [ ] yabai - window management
+  - [ ] skhd - keyboard shortcuts for yabai
+  - [ ] stow - dotfiles
 - homebrew casks
   - [ ] arc
   - [ ] obs
