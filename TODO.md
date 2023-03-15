@@ -2,6 +2,7 @@
 
 Before next installation update the script with the following items:
 
+- dotfiles using chezmoi
 - homebrew
   - [ ] qview
   - [ ] yabai - window management
@@ -18,7 +19,12 @@ Before next installation update the script with the following items:
   - [ ] eslint
   - [ ] ts-node
   - [ ] typescript
+- mac settings
+  - Accessibility
+    - reduced motion ON
+    - shake mouse pointer to locate OFF
 - post install, manual steps (that could be possibly automated)
+  - [ ] Warp terminal
   - [ ] download and install Logtech driver, then login to sync settings
   - [ ] BetterTouchTool: give permissions, import presets (dotfiles), import license (1Pass)
   - [ ] KarabinerElements: give permissions, then complex Modifications > map capslock to powerkey
