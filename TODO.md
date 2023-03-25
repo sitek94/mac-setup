@@ -37,5 +37,5 @@ Before next installation update the script with the following items:
   - [ ] ssh-keys
     - [ ] [github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
   - [ ] [Rust + cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
-  - [ ] 
+  - [ ] Calibre
 
