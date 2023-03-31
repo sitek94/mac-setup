@@ -2,7 +2,8 @@
 #
 # TODO: make it run automatically on setup, for now it's just a dump file
 #
-# For now 
+# For now run:
+# curl -sSL https://raw.githubusercontent.com/sitek94/mac-setup/main/macos.todo.sh | bash
 
 # Credits: Kent
 # https://github.com/kentcdodds/dotfiles/blob/master/.macos
