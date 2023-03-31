@@ -10,9 +10,11 @@ Before next installation update the script with the following items:
   - [ ] stow - dotfiles
   - [ ] ffmpeg
   - [ ] yt-dlp
+  - [ ] bat — cat with syntax highlighting
 - homebrew casks
   - [ ] arc
   - [ ] obs
+  - [ ] [1password-cli](https://developer.1password.com/docs/cli/get-started/#install)
 - app store
   - [ ] [unzip one](https://apps.apple.com/us/app/unzip-one-rar-zip-extractor/id1127253508?mt=12)
 - npm packages (some of them might be already there)
