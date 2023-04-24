@@ -1,6 +1,12 @@
-## TODO
+# TODO
 
 Before next installation update the script with the following items:
+
+## Dump
+
+- [Record screen with internal audio](https://github.com/ExistentialAudio/BlackHole)
+
+## More or less organized
 
 - dotfiles using chezmoi
 - homebrew
