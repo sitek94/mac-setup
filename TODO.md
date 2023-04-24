@@ -5,6 +5,7 @@ Before next installation update the script with the following items:
 ## Dump
 
 - [Record screen with internal audio](https://github.com/ExistentialAudio/BlackHole)
+  - https://www.youtube.com/watch?v=prUVS0HF2gU  
 
 ## More or less organized
 
