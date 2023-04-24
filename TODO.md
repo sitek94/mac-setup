@@ -5,7 +5,8 @@ Before next installation update the script with the following items:
 ## Dump
 
 - [Record screen with internal audio](https://github.com/ExistentialAudio/BlackHole)
-  - https://www.youtube.com/watch?v=prUVS0HF2gU  
+  - https://www.youtube.com/watch?v=prUVS0HF2gU
+  - `brew install blackhole-2ch`
 
 ## More or less organized
 
