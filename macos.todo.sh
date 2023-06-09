@@ -5,12 +5,16 @@
 # For now run:
 # curl -sSL https://raw.githubusercontent.com/sitek94/mac-setup/main/macos.todo.sh | bash
 
-# Credits: Kent
+# Credits:
 # https://github.com/kentcdodds/dotfiles/blob/master/.macos
+# https://github.com/mathiasbynens/dotfiles/blob/main/.macos
 
 ###############################################################################
 # General UI/UX                                                               #
 ###############################################################################
+
+# Disable the sound effects on boot
+sudo nvram SystemAudioVolume=" "
 
 # Disable the “Are you sure you want to open this application?” dialog
 defaults write com.apple.LaunchServices LSQuarantine -bool false
@@ -52,7 +56,7 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 5
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 
 ###############################################################################
