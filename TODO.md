@@ -7,6 +7,7 @@ Before next installation update the script with the following items:
 - [Record screen with internal audio](https://github.com/ExistentialAudio/BlackHole)
   - https://www.youtube.com/watch?v=prUVS0HF2gU
   - `brew install blackhole-2ch`
+- bun
 
 ## More or less organized
 
@@ -48,4 +49,3 @@ Before next installation update the script with the following items:
     - [ ] [github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
   - [ ] [Rust + cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
   - [ ] Calibre
-
