@@ -1,7 +1,7 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_dotfiles: true
+configure_dotfiles: false
 configure_dock: true
 
 dockitems_remove:
@@ -16,7 +16,7 @@ dockitems_remove:
   - Freeform
   - TV
   - Podcasts
-  - "App Store"
+  - 'App Store'
   - Music
   - Numbers
   - Keynote
@@ -24,54 +24,67 @@ dockitems_remove:
 
 dockitems_persist: []
 
-dotfiles_repo: https://github.com/sitek94/dotfiles.git
-dotfiles_repo_accept_hostkey: true
-dotfiles_repo_version: main
-dotfiles_repo_local_destination: ~/.dotfiles
-dotfiles_files:
-  - .zshrc
-  - .gitconfig
-  - .gitignore_global
-  - .prettierrc
-  - maciek.bttpreset
-
 homebrew_installed_packages:
+  - 1password-cli
+  - bat # cat with syntax highlighting
+  - blackhole-2ch # Record screen with internal audio: https://github.com/ExistentialAudio/BlackHole
+  - bun
+  - ffmpeg
   - git
-  - github/gh/gh
+  - pnpm
+  - gh
+  - jq
   - node
   - nvm
-  - ssh-copy-id
   - openssl
+  - qview
+  - rust
+  - ssh-copy-id
+  - unzip
   - wget
+  - yt-dlp # Youtube CLI downloader
   - {
       name: zsh-autosuggestions,
-      path: "~/.oh-my-zsh/plugins/zsh-autosuggestions",
+      path: '~/.oh-my-zsh/plugins/zsh-autosuggestions',
     }
   - zsh-history-substring-search
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-fonts
+  - oven-sh/bun
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password
-  - alfred
+  - arc
   - bettertouchtool
   - brave-browser
+  - calibre
+  - discord
   - docker
   - firefox
+  - font-fira-code
   - google-chrome
-  - iterm2
   - karabiner-elements
+  - logitech-options
+  - obs
   - obsidian
+  - notion
+  - setapp
   - slack
+  - raycast
   - spotify
   - todoist
   - visual-studio-code
+  - warp
   - webstorm
+  - vlc
+  - zoom
 
 npm_packages:
+  - pnpm
   - prettier
   - eslint
   - typescript
