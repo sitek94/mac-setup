@@ -27,24 +27,19 @@ homebrew_installed_packages:
   - blackhole-2ch # Record screen with internal audio: https://github.com/ExistentialAudio/BlackHole
   - bun
   - ffmpeg
-  - git
-  - pnpm
   - gh
+  - git
   - jq
   - node
   - nvm
   - openssl
+  - pnpm
   - qview
   - rust
   - ssh-copy-id
   - unzip
   - wget
   - yt-dlp # Youtube CLI downloader
-  - {
-      name: zsh-autosuggestions,
-      path: '~/.oh-my-zsh/plugins/zsh-autosuggestions',
-    }
-  - zsh-history-substring-search
 
 homebrew_taps:
   - homebrew/core
@@ -66,23 +61,22 @@ homebrew_cask_apps:
   - google-chrome
   - karabiner-elements
   - logitech-options
+  - notion
   - obs
   - obsidian
   - postman
-  - notion
+  - raycast
   - setapp
   - slack
-  - raycast
   - spotify
   - todoist
   - visual-studio-code
+  - vlc
   - warp
   - webstorm
-  - vlc
   - zoom
 
 npm_packages:
-  - pnpm
   - prettier
   - eslint
   - typescript
