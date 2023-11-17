@@ -9,7 +9,3 @@ homebrew_installed_packages:
   - pv
   - wget
   - wrk
-
-homebrew_cask_apps:
-  - firefox
-  - licecap
