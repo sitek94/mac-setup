@@ -1,6 +1,3 @@
----
-downloads: ~/.ansible-downloads/
-
 configure_dotfiles: false
 configure_dock: true
 
@@ -71,6 +68,7 @@ homebrew_cask_apps:
   - logitech-options
   - obs
   - obsidian
+  - postman
   - notion
   - setapp
   - slack
