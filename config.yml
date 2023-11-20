@@ -30,8 +30,7 @@ homebrew_installed_packages:
   - gh
   - git
   - jq
-  - node
-  - nvm
+  - fnm
   - openssl
   - pnpm
   - qview

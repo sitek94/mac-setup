@@ -59,6 +59,7 @@ ansible-playbook main.yml --ask-become-pass
 
 ## Post installation step by steps instructions
 
+- Chezmoi - init dotfiles
 - 1Password - login to your account and setup new device using QR code
 - Setup HyperKey 
   - Karabiner Elements
@@ -68,12 +69,20 @@ ansible-playbook main.yml --ask-become-pass
 - Keyboard Maestro - import settings from Dropbox
 - Logi Options (Mouse + Keyboard) login and sync
 - Setapp - login and install same apps from other machine
-- Disable default Mac shortcuts
-  - Screenshots
-  - Spotlight
+- Mac system settings
+  - Disabled shortcuts
+    - Screenshots
+    - Spotlight
+  - Accessibility
+    - reduced motion ON
+    - shake mouse pointer to locate OFF
 - Arc Browser - login and sync settings
 - Chrome - login and sync settings
 - VSCode - login (with GitHub) and sync settings
+- GitHub
+  - [Setup SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- Obsidian
+  - init value from iCloud
 
 ## Resources
 
@@ -87,3 +96,11 @@ ansible-playbook main.yml --ask-become-pass
   - https://github.com/ThePrimeagen/.dotfiles
   - https://github.com/kentcdodds/dotfiles
   - https://github.com/thepr/dotfiles
+
+[includeIf "gitdir:~/nexontis/"]
+    path = .gitconfig-nexontis
+
+## Maybe next time
+
+- Migration Assistant - maybe it could be useful when I'll be migrating my personal laptop, because when I tried to use
+  it for the one for my company, I couldn't transfer System Settings, because they're managed by admins.
