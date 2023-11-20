@@ -2,28 +2,28 @@
   hosts: all
 
   vars_files:
-    - default.config.yml
+    - config.yml
 
-  pre_tasks:
-    - name: Include playbook configuration.
-      include_vars: '{{ item }}'
-      with_fileglob:
-        - '{{ playbook_dir }}/config.yml'
-      tags: ['always']
+  # pre_tasks:
+  #   - name: Include playbook configuration.
+  #     include_vars: '{{ item }}'
+  #     with_fileglob:
+  #       - '{{ playbook_dir }}/config.yml'
+  #     tags: ['always']
 
   roles:
-    - role: elliotweiser.osx-command-line-tools
+    # - role: elliotweiser.osx-command-line-tools
     - role: geerlingguy.mac.homebrew
       tags: ['homebrew']
-    - role: geerlingguy.dotfiles
-      when: configure_dotfiles
-      tags: ['dotfiles']
-    - role: geerlingguy.mac.dock
-      when: configure_dock
-      tags: ['dock']
+    # - role: geerlingguy.dotfiles
+    #   when: configure_dotfiles
+    #   tags: ['dotfiles']
+    # - role: geerlingguy.mac.dock
+    #   when: configure_dock
+    #   tags: ['dock']
 
   tasks:
     - import_tasks: tasks/npm-packages.yml
       tags: ['npm-packages']
-    - import_tasks: tasks/zsh.yml
-      tags: ['zsh']
+    # - import_tasks: tasks/zsh.yml
+    #   tags: ['zsh']

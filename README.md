@@ -1,6 +1,7 @@
 # Maciek's initial macOs setup
 
-Initially, go through initial macOs setup wizard, create local user account, login to iCloud. Once on the macOs desktop do the steps below.
+Initially, go through initial macOs setup wizard, create local user account, login to iCloud. Once on the macOs desktop
+do the steps below.
 
 ## Installation
 
@@ -12,14 +13,26 @@ xcode-select --install
 
 ### Install Ansible using pip
 
+Create `.zshrc` with content:
+
 ```shell
-# Update PATH
-export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$HOME/.local/bin:$PATH
+touch ~/.zshrc
+```
 
-# Update pip
+```shell
+PATH="$PATH:"
+PATH="$PATH:$HOME/Library/Python/3.9/bin"
+```
+
+Update pip
+
+```shell
 sudo pip3 install --upgrade pip
+```
 
-# Install Ansible
+Install Ansible
+
+```shell
 python3 -m pip install --user ansible
 ```
 
