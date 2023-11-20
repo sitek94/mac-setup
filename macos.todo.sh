@@ -8,7 +8,7 @@
 # Credits:
 # https://github.com/kentcdodds/dotfiles/blob/master/.macos
 # https://github.com/mathiasbynens/dotfiles/blob/main/.macos
-osascript -e 'tell application "System Preferences" to quit'
+
 
 # Ask for the administrator password upfront
 sudo -v
@@ -27,7 +27,7 @@ sudo nvram SystemAudioVolume=" "
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
 # Never go into computer sleep mode
-sudo systemsetup -setcomputersleep Off > /dev/null
+# sudo systemsetup -setcomputersleep Off > /dev/null
 
 # Disable automatic capitalization as it’s annoying when typing code
 defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
