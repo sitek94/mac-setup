@@ -60,6 +60,18 @@ ansible-playbook main.yml --ask-become-pass
 ## Post installation step by steps instructions
 
 - 1Password - login to your account and setup new device using QR code
+- Setup HyperKey 
+  - Karabiner Elements
+  - [Hyperkey](https://hyperkey.app/) (alternative)
+- Dropbox - login and sync
+- Raycast - import settings from Dropbox
+- Keyboard Maestro - import settings from Dropbox
+- Logi Options (Mouse + Keyboard) login and sync
+- Setapp - login and install same apps from other machine
+- Disable default Mac shortcuts
+  - Screenshots
+  - Spotlight
+- Arc Browser - login and sync settings
 - Chrome - login and sync settings
 - VSCode - login (with GitHub) and sync settings
 

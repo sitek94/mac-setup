@@ -16,14 +16,11 @@ Before next installation update the script with the following items:
     - [ ] [github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 - [ ] Obsidian: copy notes from iCloud/documents and create vault
-- [ ] BetterTouchTool: give permissions, import presets (dotfiles), import license (1Pass)
 - [ ] Logtech login to sync settings
 - Calibre
-- Raycast - create global shortcut
+
 - [ ] enable apps from Setapp
 
-  - Import settings
-  - [ ] KarabinerElements: give permissions, then complex Modifications > map capslock to powerkey
 
 - [ ] Ensure Ethernet has higher priority than WiFi (System Preferences > Network > gear icon > Set Service Order)
 

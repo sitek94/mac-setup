@@ -56,10 +56,12 @@ homebrew_cask_apps:
   - calibre
   - discord
   - docker
+  - dropbox
   - firefox
   - font-fira-code
   - google-chrome
   - karabiner-elements
+  - keyboard-maestro
   - logitech-options
   - notion
   - obs
